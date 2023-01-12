@@ -31,7 +31,6 @@
               </ul>
 
           </div>
-              <
           </div>
         </div>
       </nav>
@@ -39,24 +38,20 @@
       <form action="https://www.google.com/search">
         <div class="row">
           <div class="col-3"></div>
-            <div class="col-5"> 
-              <input type="text" class="form-control" name="q" placeholder="Search"><br>
+            <div class="col-5">
+              <!--add 'tbm-isch' to search query for images-->
+              <input type="text" class="form-control" name="q" placeholder="Search"> 
+              <input type="hidden" class="form-control" name="tbm" value="isch">
             </div>
         </div>
+        <div><br></div>
         <!--Search buttons row-->
         <div class="row">
           <div class="col-4"></div>
           <!--Search button-->
             <div class="col-1">
-              <input type="submit" class="btn btn-primary mb-3" value="Search">
-            </div>
-          
-          <!--I Feel Lucky button-->
-            <div class="col-1">
-              <input type=""submit" class="btn btn-secondary mb-3" value="I Feel Lucky!">
-            </div>
-          <div class="col-4"></div>
-        </div>    
+              <input type="submit" class="btn btn-primary mb-3" value="Image Search">
+          </div>   
       </form>
     </body>
 </html>
